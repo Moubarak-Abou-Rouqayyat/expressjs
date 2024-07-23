@@ -1,0 +1,17 @@
+main {
+    /*width: 50px;*/
+    margin: 50px auto;
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table{
+    margin: 50px auto;
+}
+
+th, td {
+    padding: 7px;
+}
