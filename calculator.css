@@ -1,0 +1,55 @@
+#app {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.title {
+    color:turquoise;
+}
+.calculator {
+    width: 330px;
+    margin: 0 auto;
+    border: 1.5px solid turquoise;
+    border-radius: 7px;
+    padding: 25px;
+}
+.result {
+    width: 85%;
+    padding: 15px;
+    font-size:medium;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 20px;
+    font-size: 19px;
+    cursor: pointer;
+    border: navy;
+    outline: none;
+}
+
+.number, .operator {
+    background-color: turquoise;
+    color: #fff;
+}
+.clear, .egal {
+    background-color: #ff6666;
+    /*color: #fff;*/
+}
+button:hover {
+    background-color: #ddd;
+}
+.egal {
+    grid-column: span 2;
+}
+
+h2:hover {
+   color: aliceblue;
+   background-color: turquoise;
+}
